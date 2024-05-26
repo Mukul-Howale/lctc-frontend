@@ -1,0 +1,38 @@
+
+.profile-details-container{
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.text-container > p{
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    flex: 1;
+}
+
+.text-container > input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.4);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-style: none;
+}
+
+.readOnlyInput{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}

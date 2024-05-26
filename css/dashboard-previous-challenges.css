@@ -1,0 +1,45 @@
+.previous-challenges{
+    width: 90%;
+    height: 500px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.previous-challenge-container{
+    width: 70%;
+    height: 320px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.4);
+    margin-left: 15%;
+    text-align: center;
+    padding: 20px;
+}
+
+.previous-challenge-details-winners{
+    display: flex;
+    flex-direction: row;
+}
+
+.previous-challenge-details, .previous-challenge-winners{
+    width: 42%;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.4);
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.divider{
+    margin-top: 20px;
+}
+
+.previous-challenge-winners a{
+    font-size: 24px;
+    font-weight: 700;
+}

@@ -1,0 +1,68 @@
+.rules-main-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.2);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rules-title{
+    margin-left: 48%;
+    margin-bottom: 40px;
+}
+
+.rules-desc{
+    width: 600px;
+    text-align: center;
+    margin-left: 28%;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rules-info-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.rules-info-container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rules-container{
+    width: 30%;
+}
+
+.submission-rules{
+    margin-left: 7%;
+    margin-right: 6%;
+}
+
+.register-btn{
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.register-btn a{
+    color: white;
+}
+
+.margin-p{
+    margin-bottom: 20px;
+}
+.margin-p1{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,177 @@
+.home-main-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.container-style{
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.container-style p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 80px;
+    line-height: 40px;
+}
+
+.container-style-2{
+    width: 78%;
+    height: 400px;
+    padding: 3.5%;
+}
+
+.container-style-3{
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-left: 8%;
+    margin-bottom: 80px;
+}
+
+.upcoming-challenge-container{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.title-ucc{
+    width: 30%;
+    height: 50px;
+    margin-left: 40%;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.details-ucc{
+    width: 85%;
+    height: 270px;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10%;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.basic-details-container p:first-child > span{
+    font-weight: 700;
+}
+
+.prize-txt-container{
+    margin-top: 20px;
+}
+
+.prize-txt-container p:first-child{
+    font-weight: 700;
+}
+
+.rules-uc-btn{
+    margin-top: 120px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.register-uc-btn{
+    margin-top: 60px;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.rules-register-btn-style{
+    width: 240px;
+    height: 50px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    margin-left: 200px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.rules-register-btn-style a{
+    color: white;
+    font-size: 24px;
+}
+
+.previous-challenge-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-pcc{
+    width: 30%;
+    height: 50px;
+    margin-left: 39%;
+}
+
+.title-pcc > h2{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.top-winners-pc{
+    width: 80%;
+    height: 220px;
+    margin-left: 10%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-winner-pc, .second-winner-pc, .third-winner-pc{
+    width: 250px;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-size-pc > img{
+    width: 80px;
+    height: 70px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.winner-name-pc{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hof-info-txt{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.hof-info-txt p:first-child > a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.title-faq-container{
+    width: 30%;
+    height: 50px;
+    margin-left: 48%;
+}
+
+.faq-questions-container{
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 8px rgba(46, 46, 46, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
+
